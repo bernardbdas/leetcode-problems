@@ -1,0 +1,21 @@
+DOS:
+
+1. Thou shalt modularize your Code as much as possible. [DIVIDE AND CONQUER]
+
+2. Thou shalt use Classes and Structs whenever needed.
+
+3. Thou shalt make use of variables instead of cascading too many conditions in an if statement.
+
+    if(prev_i + dx[i] < n && prev_i + dx[i] >=0 && prev_j + dx[i] < m && prev_j + dx[i] >= 0 && grid[prev_i + dx[i]][prev_j + dx[i]] == 1)    //This is NOT Expected
+
+    int new_x =  prev_i + dx[i];
+    int new_y =  prev_j + dx[i];
+    if(new_x < n && new_x >=0 && new_y < m && new_y >= 0 && grid[new_x][new_y] == 1)    //This is Expected
+
+
+
+----------------------------X----------------------------X----------------------------X----------------------------
+
+DONTS:
+
+1. Thou shalt not do too many operations in one single function.
