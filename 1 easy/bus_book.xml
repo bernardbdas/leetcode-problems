@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bus_booking>
+
+    <ticket>
+        <ticket_no></ticket_no>
+        <customer>
+            <cust_id></cust_id>
+            <first_name></first_name>
+            <last_name></last_name>
+            <address></address>
+            <email></email>
+            <contact></contat>
+            <seat_no></seat_no>
+        </customer>
+
+        <route>
+            <route_id></route_id>
+            <source></source>
+            <destination></destination>
+        </route>
+
+        <bus>
+            <bus_id></bus_id>
+            <bus_type></bus_type>
+            <agency></agency>
+            <seating_capacity></seating_capacity>
+        </bus>
+    </ticket>
+
+</bus_booking>
